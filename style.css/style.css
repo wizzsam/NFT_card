@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body{
+    font-family: "Outfit", sans-serif;
+    background: #0d1a2d;
+}
+.Card_Principal{
+    margin: 100px auto;
+    max-width: 90%;
+    width: 350px;
+    background: #15273f;
+    border-radius: 20px;
+}
+.img_Prin{
+    position: relative;
+    width: 92%;
+    border-radius: 10px;
+    margin: 10px 10px 10px 13px;
+    z-index: 1;
+}
+.img_view {
+    margin: 100px auto;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 2;
+    top: 2%;
+    left: 39.5%;
+    padding: 9% 9% 8.8% 9%;
+    opacity: 0%;
+}
+.text1{
+    margin-left: 16px;
+    color: white;
+    font-size: 25px;
+    margin-top: 0px;
+}
+.text2{
+    color: white;
+    opacity: 70%;
+    font-weight: lighter;
+   margin: -10px 0px 20px 16px;
+}
+.Card_2{
+    display: inline-flex;
+    margin: 16px;
+}
+.img_nft{
+    width: 15px;
+    height: 25px;
+    margin: -10px 10px 0px 0px;
+}
+.text3{
+    margin: 0px;
+    margin: -7px 0px 0px 0px;
+    color: #03dee2;
+}
+.img_reloj{
+    width: 25px;
+    height: 25px;
+    margin: -10px 10px 0px 90px;
+}
+.text4{
+margin: 0;
+margin: -7px 0px 0px 0px;
+color: #87a2ce;
+}
+.linea{
+   margin: 10px 20px 30px 20px;
+   opacity: 20%;
+}
+.Card_3{
+    display: inline-flex;
+}
+.img_perfil{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: solid white 1px;
+    margin: -10px 15px 35px 16px;
+}
+.text5{
+color: white;
+margin-top: -1px;
+opacity: 70%;
+font-weight: lighter;
+}
+.text6{
+    color: white;
+    margin-top: -1px;
+    margin-left: 3px;
+}
+.text1:hover,.text6:hover{
+    cursor: pointer;
+    color: #03dee2;
+}
+.img_view:hover{
+    display: (this);
+    cursor: pointer;
+    background:#03dee2 ;
+    opacity: 80%;
+}
+@media screen and (max-width:480px){
+    .img_view{
+       top: 2%;
+       padding: 33%;
+       left: 10.5%;
+       
+    }
+    
+}
+
